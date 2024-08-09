@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Tiny5", sans-serif;
+}
+
+
+:root {
+    --primary-color: #051923;
+    --secondary-color: #006494;
+    --tertiary-color: #00A6FB;
+    --quaternary-color: #003554;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--tertiary-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container li {
+    list-style: none;
+    padding: 0;
+    color: var();
+}
+
+.description  {
+    color: var(secondary-color);
+}
+
+.subtitle  {
+    color: var(--quaternary-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    /* vh, vw, rem, em, px */
+    line-height: 1.75rem;
+
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+
+.callToAction {
+    padding: 1rem;
+    background-color: var();
+    color: var();
+    border-radius: 5em;
+    -webkit-border-radius: 5em;
+    -moz-border-radius: 5em;
+    -ms-border-radius: 5em;
+    -o-border-radius: 5em;
+}
+
+.callToAction:hover {
+    background-color: var();
+    color: var();
+    cursor: pointer;
+}
+
+grid-container > h1 {
+    font-weight: 900;
+}
+
+li:first-child {
+    color: #fff;
+}
+
+li:last-child {
+    color: #c92828;
+}
+
+li:nth-child(3) {
+    color: #30cc52;
+}
+
+.font2 {
+    font-family: "Tiny5", sans-serif;
+}
